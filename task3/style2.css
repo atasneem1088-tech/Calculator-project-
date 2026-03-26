@@ -1,0 +1,36 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid black; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 100%;
+    width: 70%;
+    border: 2px solid black;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.one{
+    background-color:black;
+    height: 100%;
+    width: 30%;
+}
+
+.item{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+}
